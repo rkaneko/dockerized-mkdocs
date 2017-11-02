@@ -1,0 +1,28 @@
+site_name: Here site-name is!
+pages:
+  - Home: index.md
+  - About: about.md
+theme: "material"
+markdown_extensions:
+  - codehilite(linenums=true)
+  - toc:
+      # this indent should be 4!!!
+      permalink: "#"
+      separator: "_"
+  - mdx_math
+  - fontawesome_markdown
+  - pymdownx.emoji
+  - admonition
+extra_css:
+  - "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
+  - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+extra_javascript:
+  - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"
+extra:
+  font:
+    text: "Noto Sans JP"
+    code: "Consolas"
+  palette:
+    primary: "amber"
+    accent: "deep orange"
